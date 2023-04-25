@@ -35,7 +35,7 @@ function onSearch(event) {
         console.dir(error);
         if (error.message === 'Not Found') {
           Notify.failure('Oops, there is no country with that name');
-          countryList.innerHTML = '';
+          list.innerHTML = '';
         }
       });
 }
